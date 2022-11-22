@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI-DJ-Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body background="bg.jpg">
+<center>
+  	<h3 class="btn btn-warning heading">AI DJ WEB APP
+	    <br>
+	    <span class="note">NOTE - Get Your Right Hand Infront Of The Camera To Change The Song</span>
+  	</h3>
+    <div class="div_song1">
+      <img src="disk.gif" class="div_song1_img">
+      <br>
+      <h3 class="btn btn-danger" id="next">Song 1</h3>
+    </div>
+
+    <div class="div_song2">
+      <img src="disk.gif" class="div_song2_img">
+      <br>
+      <h3 class="btn btn-danger" id="">Song 2</h3>
+    </div>
+
+	<br><br>
+
+  <button onclick="play();" class="btn btn-success play_button">Play</button>
+
+  <button onclick="stop()" class="btn btn-danger stop_button">Stop</button>
+
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>

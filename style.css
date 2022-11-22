@@ -1,0 +1,63 @@
+.heading
+{
+    font-style: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+body
+{
+    background-size: cover;
+}
+
+.div_song1
+{
+    float : left;
+}
+
+.div_song1_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#song1
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_song2
+{
+    float: right;
+}
+
+.div_song2_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#song2
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.play_button,.stop_button
+{
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+}
